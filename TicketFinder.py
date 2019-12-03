@@ -30,7 +30,7 @@ for comment in seller_comments:
                 already_commented = True 
 
         if already_commented == False:
-            # Handles comment rate limit exception which will occurr 
+            # Handles comment rate limit exception which will occur
             # if reddit account is not verified or does not have enough karma 
             try:
                 comment.reply('Message incoming from /u/username')
